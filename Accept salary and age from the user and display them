@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float salary;
+    int age;
+
+    printf("Enter your salary: ");
+    scanf("%f", &salary);
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("\nSalary = %.2f", salary);
+    printf("\nAge = %d", age);
+
+    return 0;
+}
