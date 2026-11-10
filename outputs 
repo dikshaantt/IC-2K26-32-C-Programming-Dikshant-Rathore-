@@ -2,14 +2,10 @@
 
 int main()
 {
-    int a, b, sum;
+    char a = 'H', b = 'f';
 
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-
-    sum = a + b;
-
-    printf("Sum = %d", sum);
+    printf("ASCII value of H = %d\n", a);
+    printf("ASCII value of f = %d\n", b);
 
     return 0;
 }
